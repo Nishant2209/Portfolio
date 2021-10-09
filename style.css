@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+header div.heading{
+    text-align: center;
+    padding: 50px;
+    background-color: black;
+    color: white;
+    font-size: 70px;
+    font-family: 'Megrim', 'cursive';
+    font-weight: bold;
+    
+}
+nav ul li a{
+    position: static ;
+    background-color: black;
+}
