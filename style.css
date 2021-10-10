@@ -1,20 +1,75 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
     box-sizing: border-box;
+    text-decoration: none;
 }
-header div.heading{
-    text-align: center;
-    padding: 50px;
+/* navbar styling */
+nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 0;
     background-color: black;
-    color: white;
-    font-size: 70px;
     font-family: 'Megrim', 'cursive';
-    font-weight: bold;
-    
 }
-nav ul li a{
-    position: static ;
-    background-color: black;
+.navbar{
+    max-width: 1700px;
+    padding: 0px 80px;
+    margin: auto;
+}
+nav .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+nav div.left{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+nav .menu .menu-item a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+nav .menu .menu-item a:hover{
+    color: crimson;
+}
+
+/* menu button styling */
+.menu-btn div {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+/* home section styling */
+.home{
+    display: flex;
+    background: url("2109.jpg") no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 25px;
+    margin: 5px 0;
+}
+.home .home-content .text-2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 25px;
+    margin: 5px 0;
 }
