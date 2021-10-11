@@ -8,9 +8,13 @@
 nav{
     position: fixed;
     width: 100%;
-    padding: 20px 0;
-    background-color: black;
+    padding: 15px 0;
     font-family: 'Megrim', 'cursive';
+    transition: all 0.3s ease;
+}
+nav.sticky{
+    background-color: black;
+    padding: 15px 0;
 }
 .navbar{
     max-width: 1700px;
@@ -42,13 +46,6 @@ nav .menu .menu-item a:hover{
     color: crimson;
 }
 
-/* menu button styling */
-.menu-btn div {
-    width: 35px;
-    height: 5px;
-    background-color: white;
-    margin: 6px 0;
-}
 /* home section styling */
 .home{
     display: flex;
@@ -68,8 +65,24 @@ nav .menu .menu-item a:hover{
     font-size: 40px;
     font-weight: 600;
     margin-left: -3px;
+    color: crimson;
 }
 .home .home-content .text-3{
     font-size: 25px;
     margin: 5px 0;
+}
+.home .home-content a{
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border: 2px solid crimson;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+.home .home-content a:hover{
+    color: white;
+    background: none;
 }
