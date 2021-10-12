@@ -81,17 +81,17 @@ nav .menu .menu-item a:hover{
     margin: auto 0 auto 40px;
 }
 .home .home-content .text-1{
-    font-size: 25px;
+    font-size: 27px;
     margin: 5px 0;
 }
 .home .home-content .text-2{
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
     color: crimson;
 }
 .home .home-content .text-3{
-    font-size: 25px;
+    font-size: 40px;
     margin: 5px 0;
 }
 .home .home-content a{
@@ -112,7 +112,7 @@ nav .menu .menu-item a:hover{
 }
 
 /* responsive media query start */
-@media (max-width: 905px){
+@media (max-width: 920px){
     .navbar{
         padding: 0px 50px;
     }
@@ -144,5 +144,12 @@ nav .menu .menu-item a:hover{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+    .home .home-content .text-2{
+        font-size: 45px;
+        color: crimson;
+    }
+    .home .home-content .text-3{
+        font-size: 30px; 
     }
 }
