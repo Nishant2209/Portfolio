@@ -107,7 +107,7 @@ nav .menu .menu-item a:hover{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/img7.jpg") no-repeat center;
+    background: url("images/img3.png") no-repeat center;
     height: 100vh;
     color: white ;
     min-height: 500px;
