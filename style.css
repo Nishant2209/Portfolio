@@ -313,23 +313,6 @@ section{
 .skills .skills-content .left p{
     text-align: justify;
 }
-.skills .skills-content .left a{
-    display: inline-block;
-    background-color: crimson;
-    color: white;
-    font-size: 15px;
-    padding: 8px 12px;
-    margin-top: 20px;
-    font-weight: 500;
-    border: 2px solid crimson;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-.skills .skills-content .left a:hover{
-    color: rgb(0, 0, 0);
-    background: none;
-}
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
 }
