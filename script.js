@@ -24,4 +24,18 @@ $(document).ready(function(){
         $('nav .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+    // typing animation script
+    var typed = new Typed(".typing", {
+        strings: ["an IT Student", "a Coder"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+    var typed = new Typed(".typing2", {
+        strings: ["an IT Student", "a Coder"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 });

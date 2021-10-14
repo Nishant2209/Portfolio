@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Megrim&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
 
 *{
     margin: 0;
@@ -16,7 +16,7 @@ nav{
     position: fixed;
     width: 100%;
     padding: 15px 0;
-    font-family: 'Megrim', 'cursive';
+    font-family: 'ubuntu', 'cursive';
     transition: all 0.3s ease;
     z-index: 9999;
 }
@@ -130,6 +130,10 @@ nav .menu .menu-item a:hover{
     font-size: 40px;
     margin: 5px 0;
 }
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
 .home .home-content a{
     display: inline-block;
     background-color: crimson;
@@ -185,6 +189,9 @@ section{
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: crimson;
 }
 .about .about-content .right p{
     text-align: justify;
@@ -487,7 +494,7 @@ footer span a:hover{
         display: block;
     }
     .home .home-content .text-2{
-        font-size: 45px;
+        font-size: 40px;
         color: crimson;
     }
     .home .home-content .text-3{
