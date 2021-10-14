@@ -109,7 +109,7 @@ nav .menu .menu-item a:hover{
     display: flex;
     background: url("images/img1.jpg") no-repeat center;
     height: 100vh;
-    color: white;
+    color: white ;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
 }
@@ -119,6 +119,7 @@ nav .menu .menu-item a:hover{
 .home .home-content .text-1{
     font-size: 27px;
     margin: 5px 0;
+    font-weight: 500;
 }
 .home .home-content .text-2{
     font-size: 60px;
