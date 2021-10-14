@@ -197,7 +197,7 @@ section{
 .about .about-content .right p{
     text-align: justify;
 }
-.about .about-content .right a{
+.about .about-content .right .CV{
     display: inline-block;
     background-color: crimson;
     color: white;
@@ -210,9 +210,23 @@ section{
     transition: all 0.3s ease;
     text-decoration: none;
 }
-.about .about-content .right a:hover{
+.about .about-content .right .CV:hover{
     color: rgb(0, 0, 0);
     background: none;
+}
+.about .about-content .right .socialmedia{
+    margin-top: 20px;
+}
+.about .about-content .right .socialmedia a{
+    font-size: 25px ;
+    color: black;
+    margin-left: 10px;
+    justify-content: end;
+    transition: all 0.3s ease;
+}
+.about .about-content .right .socialmedia a:hover{
+    font-size: 30px;
+    color: crimson;
 }
 
 /* services content styling */
