@@ -35,7 +35,7 @@ nav .navbar{
     justify-content: space-between  ;
 }
 nav div.left{
-    color: white;
+    color: crimson;
     font-size: 45px;
     font-weight: bold;
 }
@@ -45,15 +45,15 @@ nav ul li{
 }
 nav .menu .menu-item a{
     display: block;
-    color: white;
+    color: crimson;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: bold;
     margin-left: 25px;
     transition: color 0.3s ease;
     text-decoration: none;
 }
 nav .menu .menu-item a:hover{
-    color: crimson;
+    color: white;
 }
 
 /* menu button styling */
@@ -69,7 +69,10 @@ nav .menu .menu-item a:hover{
     border: none;
     padding: .375rem .75rem;
     border-radius: .25rem;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out;
+    background-color: .15s ease-in-out;
+    border-color: .15s ease-in-out;
+    box-shadow: .15s ease-in-out;
     color: white; 
     background: none; 
     font-size: 22px;
@@ -104,7 +107,7 @@ nav .menu .menu-item a:hover{
 /* home section styling */
 .home{
     display: flex;
-    background: url("img1.jpg") no-repeat center;
+    background: url("images/img1.jpg") no-repeat center;
     height: 100vh;
     color: white;
     min-height: 500px;
