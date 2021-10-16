@@ -35,7 +35,7 @@ nav .navbar{
     justify-content: space-between  ;
 }
 nav div.left{
-    color: crimson;
+    color: white;
     font-size: 45px;
     font-weight: bold;
 }
@@ -45,7 +45,7 @@ nav ul li{
 }
 nav .menu .menu-item a{
     display: block;
-    color: crimson;
+    color: white;
     font-size: 20px;
     font-weight: bold;
     margin-left: 25px;
@@ -53,7 +53,7 @@ nav .menu .menu-item a{
     text-decoration: none;
 }
 nav .menu .menu-item a:hover{
-    color: white;
+    color: crimson;
 }
 
 /* menu button styling */
@@ -107,7 +107,7 @@ nav .menu .menu-item a:hover{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/img3.png") no-repeat center;
+    background: url("images/img1.jpg") no-repeat center;
     height: 100vh;
     color: white ;
     min-height: 500px;
@@ -283,9 +283,47 @@ section{
     margin: 10px 0 7px 0;
 }
 
+/* education section styling */
+.education{
+    font-family: 'poppins',sans-serif;
+}
+.education .title{
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'ubuntu', sans-serif;
+}
+.education .ed-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 50px auto 50px;
+}
+.education .ed-content .card{
+    width: calc(33% - 20px);
+    text-align: center;
+    padding: 20px 25px;
+}
+.education .ed-content .card img{
+    width: 100%;
+}
+.education .ed-content .card h2{
+    font-size: 25px;    
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+}
+.education .ed-content .card p{
+    font-size: 14px;
+}
+
 /* skills section styling */
 .skills{
     font-family: 'poppins',sans-serif;
+    background: #111;
+    color: white;
 }
 .skills .title{
     text-align: center;
@@ -524,6 +562,10 @@ footer span a:hover{
     }
     .services.serv-content .card{
         width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .education .ed-content .card{
+        width: 100%;
         margin-bottom: 20px;
     }
 }
