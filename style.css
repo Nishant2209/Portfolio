@@ -412,6 +412,10 @@ section{
 }
 .contact .contact-content .info .sub-title{
     color: #333;
+    text-decoration: none;
+}
+.contact .contact-content .info .sub-title:hover{
+    color: crimson;
 }
 .contact .right form .fields{
     display: flex;
