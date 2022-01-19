@@ -21,7 +21,7 @@ nav{
     z-index: 9999;
 }
 nav.sticky{
-    background-color: black;
+    background-color: #104c91;
     padding: 0px;
 }
 .navbar{
@@ -35,7 +35,7 @@ nav .navbar{
     justify-content: space-between  ;
 }
 nav div.left{
-    color: white;
+    color: #efc9af;
     font-size: 45px;
     font-weight: bold;
 }
@@ -53,14 +53,14 @@ nav .menu .menu-item a{
     text-decoration: none;
 }
 nav .menu .menu-item a:hover{
-    color: crimson;
+    color: #efc9af;
 }
 
 /* menu button styling */
 .menu-btn{
     padding-right: 1rem!important;
     padding-left: 1rem!important;
-    border-color: #6c757d;
+    border-color: #efc9af;
     font-weight: 400;
     line-height: 1.5;
     text-align: center;
@@ -73,7 +73,7 @@ nav .menu .menu-item a:hover{
     background-color: .15s ease-in-out;
     border-color: .15s ease-in-out;
     box-shadow: .15s ease-in-out;
-    color: white; 
+    color: #efc9af; 
     background: none; 
     font-size: 22px;
     display: none;
@@ -84,8 +84,8 @@ nav .menu .menu-item a:hover{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
-    color: white;
+    background: #104c91;
+    color: #efc9af;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -109,7 +109,7 @@ nav .menu .menu-item a:hover{
     display: flex;
     background: url("images/img1.jpg") no-repeat center;
     height: 100vh;
-    color: white ;
+    color: #efc9af ;
     min-height: 500px;
     font-family: 'ubuntu', sans-serif;
 }
@@ -125,24 +125,24 @@ nav .menu .menu-item a:hover{
     font-size: 60px;
     font-weight: 600;
     margin-left: -3px;
-    color: crimson;
+    color: white;
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: white;
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background-color: crimson;
-    color: white;
+    background-color: #efc9af;
+    color: #104c91;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
-    border: 2px solid crimson;
+    border: 2px solid #efc9af;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
@@ -158,6 +158,7 @@ section{
 }
 .about{
     font-family: 'poppins', sans-serif;
+    background-color: #efc9af;
 }
 .about .title{
     text-align: center;
@@ -166,6 +167,8 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'ubuntu', sans-serif;
+    text-decoration: underline;
+    color: #104c91;
 }
 .about .about-content{
     display: flex;
@@ -192,26 +195,26 @@ section{
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: #104c91;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right .CV{
     display: inline-block;
-    background-color: crimson;
-    color: white;
+    background-color: #104c91;
+    color: #efc9af;
     font-size: 15px;
     padding: 10px 12px;
     margin-top: 20px;
     font-weight: 500;
-    border: 2px solid crimson;
+    border: 2px solid #104c91;
     border-radius: 6px;
     transition: all 0.3s ease;
     text-decoration: none;
 }
 .about .about-content .right .CV:hover{
-    color: rgb(0, 0, 0);
+    color: #104c91;
     background: none;
 }
 .about .about-content .right .socialmedia{
@@ -219,14 +222,13 @@ section{
 }
 .about .about-content .right .socialmedia a{
     font-size: 25px ;
-    color: black;
+    color: #104c91;
     margin-left: 10px;
     justify-content: end;
     transition: all 0.3s ease;
 }
 .about .about-content .right .socialmedia a:hover{
     font-size: 30px;
-    color: crimson;
 }
 
 /* services content styling */
@@ -235,8 +237,8 @@ section{
 }
 .services{
     font-family: 'poppins', sans-serif;
-    background: #111;
-    color: white;
+    background: #104c91;
+    color: #efc9af;
 }
 .services .title{
     text-align: center;
@@ -245,6 +247,7 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'ubuntu', sans-serif;
+    text-decoration: underline;
 }
 .services .serv-content{
     display: flex;
@@ -255,13 +258,15 @@ section{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #efc9af;
+    color: #104c91;
     text-align: center;
     padding: 20px 25px;
     cursor: pointer;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: #1f8ac0;
+    color: #efc9af;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -271,11 +276,11 @@ section{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: #104c91;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
-    color: white;
+    color: #efc9af;
 }
 .services .serv-content .card .text{
     font-size: 25px;    
@@ -286,6 +291,7 @@ section{
 /* education section styling */
 .education{
     font-family: 'poppins',sans-serif;
+    background-color: #efc9af;
 }
 .education .title{
     text-align: center;
@@ -294,6 +300,8 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'ubuntu', sans-serif;
+    color: #104c91;
+    text-decoration: underline;
 }
 .education .ed-content{
     display: flex;
@@ -303,6 +311,8 @@ section{
     margin: auto 50px auto 50px;
 }
 .education .ed-content .card{
+    background-color: #104c91;
+    color: #efc9af;
     width: calc(33% - 20px);
     text-align: center;
     padding: 20px 25px;
@@ -322,8 +332,8 @@ section{
 /* skills section styling */
 .skills{
     font-family: 'poppins',sans-serif;
-    background: #111;
-    color: white;
+    background: #104c91;
+    color: #efc9af;
 }
 .skills .title{
     text-align: center;
@@ -368,6 +378,8 @@ section{
 /* contact section styling */
 .contact{
     font-family: 'poppins',sans-serif;
+    background-color: #efc9af;
+    color: #104c91;
 }
 .contact .title{
     text-align: center;
@@ -405,17 +417,14 @@ section{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: #104c91;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #1f8ac0;
     text-decoration: none;
-}
-.contact .contact-content .info .sub-title:hover{
-    color: crimson;
 }
 .contact .right form .fields{
     display: flex;
@@ -456,33 +465,34 @@ section{
 .contact .right form .button button{
     width: 100%;
     height: 100%;
-    border: 2px solid crimson;
+    border: 2px solid #104c91;
     border-radius: 6px;
-    background: crimson;
-    color: white;
+    background: #104c91;
+    color: #efc9af;
     font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 .contact .right form .button button:hover{
-    color: black;
+    color: #104c91;
     background: none;
 }
 
 /* footer section styling */
 footer{
     font-family: 'poppins', sans-serif;
-    background: black;
+    background: #104c91;
     padding: 20px 23px;
-    color: white;
+    color: #efc9af;
 }
 footer span a{
-    color: crimson;
+    color: #1f8ac0;
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
+    color: #efc9af;
 }
 
 /* responsive media query start */
@@ -518,7 +528,7 @@ footer span a:hover{
     }
     nav .menu{
         position: fixed;
-        background: #111;
+        background: #104c91;
         height: 100vh;
         width: 100%;
         left: -100%;
@@ -535,7 +545,7 @@ footer span a:hover{
     }
     .home .home-content .text-2{
         font-size: 40px;
-        color: crimson;
+        color: white;
     }
     .home .home-content .text-3{
         font-size: 30px; 
