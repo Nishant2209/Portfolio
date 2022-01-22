@@ -135,22 +135,47 @@ nav .menu .menu-item a:hover{
     color: white;
     font-weight: 500;
 }
-.home .home-content a{
-    display: inline-block;
-    background-color: #efc9af;
+.home .home-content .center {
+    width: 180px;
+    height: 60px;
+    position: absolute;
+  }
+.home .home-content .btn {
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    background: #efc9af;
+    border: 1px solid #104c91;
+    outline: none;
+  }
+.home .home-content .btn svg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: none;
+    stroke: #104c91;
+    stroke-width: 4;
+    stroke-dasharray: 150 480;
+    stroke-dashoffset: 150;
+    transition: 1.5s ease-in-out;
+    border: 2px solid #efc9af!important;
+  }
+
+.home .home-content .btn:hover svg {
+    stroke-dashoffset: -480;    
+  }
+  
+.home .home-content .btn span {
+    color: #104c91;
+    font-size: 22px;
+    font-weight: 100;
+  }
+.home .home-content .btn:hover span {
     color: #104c91;
     font-size: 25px;
-    padding: 12px 36px;
-    margin-top: 20px;
-    border: 2px solid #efc9af;
-    border-radius: 6px;
-    transition: all 0.3s ease;
-    text-decoration: none;
-}
-.home .home-content a:hover{
-    color: white;
-    background: none;
-}
+    font-weight: 100;
+    transition: 1.5s ease;
+  }
 
 /* about section styling */
 section{
@@ -202,20 +227,43 @@ section{
 }
 .about .about-content .right .CV{
     display: inline-block;
-    background-color: #104c91;
-    color: #efc9af;
+}
+.about .about-content .right .CV a{
+    display: block;
     font-size: 15px;
     padding: 10px 12px;
     margin-top: 20px;
     font-weight: 500;
-    border: 2px solid #104c91;
+    color: #efc9af;
     border-radius: 6px;
-    transition: all 0.3s ease;
+    background-color: #104c91;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
     text-decoration: none;
 }
-.about .about-content .right .CV:hover{
+.about .about-content .right .CV a span{
+    position: relative;
+    z-index: 2;
+}
+.about .about-content .right .CV a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #efc9af;
+    border-radius: 6px;
+    transition: all .35s;
+    
+}
+.about .about-content .right .CV a:hover{
     color: #104c91;
-    background: none;
+}
+.about .about-content .right .CV a:hover:after{
+    width: 100%;
+    transform: translateX(0%) skew(-20deg);
 }
 .about .about-content .right .socialmedia{
     margin-top: 20px;
@@ -458,25 +506,49 @@ section{
     padding-top: 10px;
     resize: none;
 }
-.contact .right form .button{
+.contact .right .button {
+    display: inline-block;
     height: 47px;
     width: 170px;
 }
-.contact .right form .button button{
+.contact .right .button a{
     width: 100%;
     height: 100%;
-    border: 2px solid #104c91;
-    border-radius: 6px;
-    background: #104c91;
-    color: #efc9af;
+    display: block;
     font-size: 20px;
+    margin-top: 20px;
+    padding-top: 8px;
     font-weight: 500;
-    cursor: pointer;
-    transition: all 0.3s ease;
+    color: #efc9af;
+    border-radius: 6px;
+    background-color: #104c91;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+    text-decoration: none;
 }
-.contact .right form .button button:hover{
+.contact .right .button a span{
+    position: relative;
+    z-index: 2;
+}
+.contact .right .button a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #efc9af;
+    border-radius: 6px;
+    transition: all .35s;
+    
+}
+.contact .right .button a:hover{
     color: #104c91;
-    background: none;
+}
+.contact .right .button a:hover:after{
+    width: 100%;
+    transform: translateX(0%) skew(-20deg);
 }
 
 /* footer section styling */

@@ -54,7 +54,15 @@
           <div class="text-1">Hello, my name is</div>
           <div class="text-2">Nishant Kumar Singh</div>
           <div class="text-3">I am <span class="typing"></span></div>
-          <a href="#contact">Hire Me</a>
+            <div class="center">
+              <button class="btn" onclick="location.href='#contact'">
+                <svg width="180px" height="60px" viewBox="0 0 180 60" class="border">
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                  <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                </svg>
+                <span>Hire Me</span>
+              </button>
+            </div>
       </div>
     </section>
     
@@ -71,7 +79,9 @@
               I am Nishant and I am <span class="typing2"></span> 
             </div>
             <p>Hello everyone 👋👋, I am Nishant Kumar Singh and I am Btech 2nd Year Student of Information Technology. My aim is to become a data science engineer and I love to code. I also provide sevice of web development. I am familiar with the languages like C, C++, HTML, and CSS. </p>
-            <a target="blank" href="Nishant-Kumar-Singh-Resume.pdf" class="CV">Download CV</a>
+            <div class="CV">
+              <a target="blank" href="Nishant-Kumar-Singh-Resume.pdf"><span>Download CV</span></a>
+            </div>
             <div class="socialmedia">
               <a href="https://www.facebook.com/nishant2209/"><i class="fab fa-facebook"></i></a>
             <a href="https://www.instagram.com/nishant__ks__0609/"><i class="fab fa-instagram"></i></a>
@@ -240,7 +250,7 @@
                 <textarea cols="30" rows="10" placeholder="Describe project..."></textarea>
               </div>
               <div class="button">
-                <button type="submit">Send Message</button>
+                <a target="blank" href="#"><span>Send Message</span></a>
               </div>
             </form>
           </div>
