@@ -390,6 +390,7 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'ubuntu', sans-serif;
+    text-decoration: underline;
 }
 .skills .skills-content{
     display: flex;
@@ -436,6 +437,7 @@ section{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'ubuntu', sans-serif;
+    text-decoration: underline;
 }
 .contact .contact-content{
     display: flex;
