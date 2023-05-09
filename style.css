@@ -527,7 +527,7 @@ section{
     text-align: center;
     position: relative;
 }
-.contact .right .button a{
+.contact .right .button div{
     width: 100%;
     height: 100%;
     display: block;
@@ -535,7 +535,7 @@ section{
     transition: all .35s;
     text-decoration: none;
 }
-.contact .right .button a span{
+.contact .right .button div span{
     position: relative;
     z-index: 2;
 }
@@ -551,10 +551,10 @@ section{
     transition: all .35s;
     
 }
-.contact .right .button a:hover{
+.contact .right .button div:hover{
     color: #1a242d;
 }
-.contact .right .button a:hover:after{
+.contact .right .button div:hover:after{
     width: 100%;
     transform: translateX(0%) skew(-20deg);
 }
